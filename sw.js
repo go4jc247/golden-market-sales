@@ -1,11 +1,12 @@
 const CACHE_NAME = 'golden-market-v1';
+// Use relative paths so SW works on GitHub Pages subpath and custom domain
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/app.js',
-  '/manifest.json',
-  '/data.json'
+  './',
+  './index.html',
+  './styles.css',
+  './app.js',
+  './manifest.json',
+  './data.json'
 ];
 
 self.addEventListener('install', e => {

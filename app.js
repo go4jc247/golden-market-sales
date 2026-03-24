@@ -27,7 +27,9 @@ window.addEventListener('offline', () => document.getElementById('offlineToast')
 
 // ── Service Worker ──────────────────────────────
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(() => {});
+  // Derive base path so SW works on both GitHub Pages (/golden-market-sales/) and custom domain (/)
+  const swPath = new URL('sw.js', document.baseURI).pathname;
+  navigator.serviceWorker.register(swPath).catch(() => {});
 }
 
 // ── Load Data ───────────────────────────────────
