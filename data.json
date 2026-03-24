@@ -1,0 +1,170 @@
+{
+  "store": {
+    "name": "Golden International Market",
+    "tagline": "Your neighborhood international grocery",
+    "address": "400 Bridge St Suite 2, New Cumberland, PA 17070",
+    "phone": "717-774-4142",
+    "hours": [
+      { "days": "Monday – Tuesday", "hours": "Closed" },
+      { "days": "Wednesday – Friday", "hours": "10am – 8pm" },
+      { "days": "Saturday", "hours": "10am – 6pm" },
+      { "days": "Sunday", "hours": "12pm – 6pm" }
+    ],
+    "updated": "2026-03-23T12:00:00Z"
+  },
+  "categories": [
+    { "id": "all", "name": "All Sales", "emoji": "🏷️" },
+    { "id": "produce", "name": "Produce", "emoji": "🥦" },
+    { "id": "meat", "name": "Meat & Seafood", "emoji": "🥩" },
+    { "id": "dairy", "name": "Dairy", "emoji": "🧀" },
+    { "id": "bakery", "name": "Bakery", "emoji": "🍞" },
+    { "id": "frozen", "name": "Frozen", "emoji": "🧊" },
+    { "id": "pantry", "name": "Pantry", "emoji": "🥫" }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "name": "Fresh Strawberries",
+      "description": "1 lb clamshell",
+      "category": "produce",
+      "original_price": 4.99,
+      "sale_price": 2.49,
+      "unit": "each",
+      "color": "#e63946",
+      "emoji": "🍓",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "name": "Boneless Chicken Breast",
+      "description": "Family pack",
+      "category": "meat",
+      "original_price": 6.99,
+      "sale_price": 3.99,
+      "unit": "per lb",
+      "color": "#f4a261",
+      "emoji": "🍗",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "name": "Whole Milk",
+      "description": "1 gallon",
+      "category": "dairy",
+      "original_price": 4.49,
+      "sale_price": 2.99,
+      "unit": "each",
+      "color": "#457b9d",
+      "emoji": "🥛",
+      "featured": false
+    },
+    {
+      "id": "4",
+      "name": "Navel Oranges",
+      "description": "3 lb bag",
+      "category": "produce",
+      "original_price": 5.99,
+      "sale_price": 3.49,
+      "unit": "each",
+      "color": "#f77f00",
+      "emoji": "🍊",
+      "featured": false
+    },
+    {
+      "id": "5",
+      "name": "Atlantic Salmon",
+      "description": "Fresh, per lb",
+      "category": "meat",
+      "original_price": 12.99,
+      "sale_price": 8.99,
+      "unit": "per lb",
+      "color": "#e76f51",
+      "emoji": "🐟",
+      "featured": true
+    },
+    {
+      "id": "6",
+      "name": "Sharp Cheddar",
+      "description": "16 oz block",
+      "category": "dairy",
+      "original_price": 6.49,
+      "sale_price": 3.99,
+      "unit": "each",
+      "color": "#e9c46a",
+      "emoji": "🧀",
+      "featured": false
+    },
+    {
+      "id": "7",
+      "name": "Sourdough Bread",
+      "description": "Fresh baked, whole loaf",
+      "category": "bakery",
+      "original_price": 5.49,
+      "sale_price": 3.49,
+      "unit": "each",
+      "color": "#bc6c25",
+      "emoji": "🍞",
+      "featured": false
+    },
+    {
+      "id": "8",
+      "name": "Baby Spinach",
+      "description": "5 oz bag",
+      "category": "produce",
+      "original_price": 3.99,
+      "sale_price": 1.99,
+      "unit": "each",
+      "color": "#2d6a4f",
+      "emoji": "🥬",
+      "featured": false
+    },
+    {
+      "id": "9",
+      "name": "Frozen Pizza",
+      "description": "Select varieties",
+      "category": "frozen",
+      "original_price": 8.99,
+      "sale_price": 5.49,
+      "unit": "each",
+      "color": "#6a4c93",
+      "emoji": "🍕",
+      "featured": false
+    },
+    {
+      "id": "10",
+      "name": "Pasta Sauce",
+      "description": "24 oz jar",
+      "category": "pantry",
+      "original_price": 9.99,
+      "sale_price": 6.49,
+      "unit": "each",
+      "color": "#c1121f",
+      "emoji": "🥫",
+      "featured": false
+    },
+    {
+      "id": "11",
+      "name": "Russet Potatoes",
+      "description": "5 lb bag",
+      "category": "produce",
+      "original_price": 4.99,
+      "sale_price": 2.99,
+      "unit": "each",
+      "color": "#8b5e3c",
+      "emoji": "🥔",
+      "featured": false
+    },
+    {
+      "id": "12",
+      "name": "Large Eggs",
+      "description": "1 dozen, Grade A",
+      "category": "dairy",
+      "original_price": 5.99,
+      "sale_price": 3.49,
+      "unit": "each",
+      "color": "#f2cc8f",
+      "emoji": "🥚",
+      "featured": true
+    }
+  ]
+}
